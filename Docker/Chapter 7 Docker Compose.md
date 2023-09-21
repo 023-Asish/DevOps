@@ -66,8 +66,9 @@ your complete compose.yaml should look like this:
   At this point, you should be able to open your app in your browser on ``` http://localhost:3000``` and see it running.
 
   ## See the app stack in Docker Dashboard
-  If you look at the Docker Dashboard, you'll see that there is a group named getting-started-app. This is the project name from Docker Compose and used to group the containers together. 
-  ![group](https://github.com/023-Asish/DevOps/assets/77069694/9334ed4c-a984-4f26-9c38-4f7a23713a65)
+  If you look at the Docker Dashboard, you'll see that there is a group named getting-started-app. This is the project name from Docker Compose and used to group the containers together.  
+  
+  ![group](https://github.com/023-Asish/DevOps/assets/77069694/9334ed4c-a984-4f26-9c38-4f7a23713a65)  
   By default, the project name is simply the name of the directory that the compose.yaml was located in.
   If you expand the stack, you'll see the two containers you defined in the Compose file. The names are also a little more descriptive, as they follow the pattern of <service-name>-<replica-number>. So, it's very easy to quickly see what container is your app and which container is the mysql database.
 
